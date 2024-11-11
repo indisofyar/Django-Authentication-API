@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     "corsheaders",
     'account',
+    'recipes',
 ]
 
 MIDDLEWARE = [
@@ -176,7 +177,7 @@ SIMPLE_JWT = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8080",
+    "http://localhost:5173",
     "http://127.0.0.1:9000",
 ]
 
